@@ -1,0 +1,49 @@
+# 🕊️ Peace - Python Project
+# A simple interactive program to spread awareness about peace
+
+def show_welcome():
+    print("\n" + "=" * 50)
+    print("              🕊️ PEACE 🕊️")
+    print("=" * 50)
+    print("Peace begins with understanding, kindness and respect.")
+    print("=" * 50)
+
+
+def peace_message():
+    messages = [
+        "🕊️ Peace begins with us.",
+        "🌿 Choose understanding over conflict.",
+        "❤️ Kindness is a language everyone understands.",
+        "🤝 Respect differences and build harmony.",
+        "🌎 A peaceful world starts with peaceful actions."
+    ]
+
+    print("\n💭 MESSAGE OF THE DAY:")
+    print(messages[0])
+
+
+def peace_tips():
+    tips = [
+        "Listen before you judge.",
+        "Respect people with different opinions.",
+        "Choose dialogue instead of unnecessary conflict.",
+        "Help someone who needs support.",
+        "Practice kindness in your everyday life.",
+        "Think before you speak.",
+        "Accept differences and promote equality."
+    ]
+
+    print("\n🌱 WAYS TO PROMOTE PEACE:")
+    for i, tip in enumerate(tips, 1):
+        print(f"{i}. {tip}")
+
+
+def peace_quiz():
+    print("\n🧠 PEACE QUIZ")
+    print("What is one of the most effective ways to resolve a conflict?")
+    print("A. Violence")
+    print("B. Ignoring the problem")
+    print("C. Communication and understanding")
+    print("D. Blaming others")
+
+    answer = input
