@@ -1,0 +1,7 @@
+# No external dependencies required
+__pycache__/
+*.pyc
+.env
+.vscode/
+.idea/
+python peace.py
